@@ -1,27 +1,36 @@
 {
   "expo": {
-    "name": "CtradisApp",
-    "slug": "CtradisApp",
+    "name": "Video App",
+    "slug": "video-app",
+    "description" : "Welcome to our application, enjoy your journey",
+    "scheme": "CtradisApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/logo-small.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-screen.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package" : "com.app.ctradisApp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package" : "com.app.ctradisApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
+    
+    
   }
 }
